@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="back">
+            <a href="Home.html">
+                <img src="https://cdn-icons-png.flaticon.com/512/3114/3114883.png" alt="Kembali" width="24">
+            </a>
+        </div>
+        <div class="about">
+            <label for="aboutToggle" class="about">
+                <img src="https://cdn-icons-png.flaticon.com/512/471/471662.png" alt="Tentang" width="24">
+            </label>
+        </div>
+        <input type="checkbox" id="aboutToggle" hidden>
+
+        <!-- Modal -->
+        <div class="modal">
+            <div class="modal-content">
+                <!-- Tombol close -->
+                <label for="aboutToggle" class="close">&times;</label>
+                <h2>Tentang Website Ini</h2>
+                <p>
+                    Website ini menampilkan koleksi game klasik buatan AI, seperti
+                    <strong>Doodle Jump</strong>, <strong>Bomberman</strong>,
+                    <strong>Tetris</strong>, <strong>Pong</strong>, dan <strong>Snake</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <h1 class="judul">GameVerse</h1>
+        <p class="isi">Berikut beberapa game yang dibuat oleh BlackBox AI menggunakan HTML, CSS, dan JavaScript</p>
+
+        <div class="scroll-container">
+            <div class="card">
+                <a href="jump.html" class="game-link">
+                    <img src="doodlejump.jpg" alt="doodlejump">
+                    <h3><b>Doodle Jump</b></h3>
+                    <p>Doodle Jump adalah game platform sederhana di mana pemain mengontrol karakter kecil yang terus
+                        melompat ke atas. Tujuan utama adalah mencapai setinggi mungkin dengan menghindari rintangan dan
+                        musuh. Gameplay-nya adiktif karena semakin tinggi, tantangannya semakin sulit dan cepat.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="bomb.html" class="game-link">
+                    <img src="bomberman.jpg" alt="bomberman">
+                    <h3><b>Bomberman</b></h3>
+                    <p>Bomberman adalah game klasik di mana pemain menempatkan bom untuk menghancurkan dinding dan
+                        mengalahkan musuh. Strategi diperlukan karena pemain juga bisa terjebak oleh ledakan bomnya
+                        sendiri.
+                        Game ini terkenal dengan mode multiplayer yang seru dan menantang.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="plane.html" class="game-link">
+                    <img src="tetris.jpg" alt="tetris">
+                    <h3><b>Tetris</b></h3>
+                    <p>Tetris adalah puzzle game legendaris yang mengharuskan pemain menyusun balok-balok dengan
+                        berbagai bentuk agar membentuk garis penuh. Tantangannya adalah menjaga layar tidak penuh sambil
+                        balok terus turun dengan kecepatan meningkat.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="pong.html" class="game-link">
+                    <img src="pong.jpg" alt="pong">
+                    <h3><b>Pong</b></h3>
+                    <p>Pong adalah salah satu video game pertama yang menyerupai tenis meja digital. Pemain mengontrol
+                        paddle di sisi layar untuk memantulkan bola agar tidak lewat. Meski sangat sederhana, Pong
+                        menjadi
+                        tonggak penting dalam sejarah industri game.</p>
+                </a>
+            </div>
+
+            <div class="card">
+                <a href="snake.html" class="game-link">
+                    <img src="snake.jpg" alt="snake">
+                    <h3><b>Snake</b></h3>
+                    <p>Snake adalah game klasik di mana pemain mengendalikan ular yang terus bergerak untuk memakan
+                        makanan.
+                        Setiap kali makan, ular bertambah panjang. Tujuannya adalah
+                        bertahan hidup selama mungkin tanpa menabrak dinding atau tubuh ular sendiri.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Website GameVerse. All Rights Reserved.</p>
+    </footer>
+
+
+</body>
+
+</html>
